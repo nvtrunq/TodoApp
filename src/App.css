@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+i, button {
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+.tag ul {
+  display: flex;
+}
+.tag ul li {
+  padding: 5px 20px;
+  padding-left: 0;
+  float: left;
+}
+.task ul {
+  display: flex;
+}
+.task ul li {
+  padding: 5px 20px;
+  padding-left: 0;
+  float: left;
+}
+.completed {
+  text-decoration: line-through;
+}
